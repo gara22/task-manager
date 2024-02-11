@@ -1,0 +1,35 @@
+# Local environment settings
+.local.env
+.secrets
+
+# Binaries for programs and plugins
+main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+shift-manager
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+cov.html
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# build directory
+build
+
+# Go workspace file
+go.work
+
+# IDE
+.idea
+.vscode
+
+# Special docs format for internal use only
+*.oso
