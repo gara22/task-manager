@@ -1,0 +1,17 @@
+
+
+
+
+
+GET  http://localhost:8090/tasks
+
+###
+
+POST http://localhost:8090/create
+content-type: application/json
+
+{
+    "startTime": "2023-01-05T01:00:00Z",
+    "endTime": "2023-01-05T02:00:00Z",
+    "name": "task1"
+}
